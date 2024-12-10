@@ -1,0 +1,40 @@
+name: Deploy Vue App to GitHub Pages
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      - name: Install dependencies
+        run: npm install
+      - name: Build Vue app
+        run: npm run build
+      - name: Deploy to GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Crear y cambiar a la rama gh-pages
+          git checkout --orphan gh-pages
+          # Eliminar todo excepto dist
+          git rm -rf .
+          # Mover contenido de dist a la raíz
+          mv dist/* .
+          # Eliminar carpeta dist vacía
+          rm -rf dist
+          # Agregar todos los archivos
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          # Forzar push a gh-pages
+          git push -f origin gh-pages
