@@ -2,21 +2,340 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 65%
+
+
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 0%
+
+  &-3
+    animation: float5 3.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    left: 10%
+    width: 20%
+
+  &-4
+    animation: float4 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 70%  
+    width: 20%
+
+  &-5
+    animation: float5 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 78%
+    right: 0%    
 
 
 @keyframes float1
-  0%
-    transform: translateY(20px)
+	0% 
+		transform: rotate(0deg) translateX(10px) rotate(-20deg)
+	
 
-  100%
-    transform: translateY(0px)
+	100% 
+		transform: rotate(180deg) translateX(10px) rotate(-180deg)  
+
+@keyframes float2
+	0% 
+		transform: rotate(0deg) translateX(-20px) rotate(20deg)
+	
+
+	100% 
+		transform: rotate(-180deg) translateX(20px) rotate(180deg) 
+
+@keyframes float3
+  0%  
+    transform: scale(1.0)
+  10%  
+    transform: scale(1.1)
+  20%  
+    transform: scale(1.2)
+  30%  
+    transform: scale(1.1)
+  40%  
+    transform: scale(1.2)
+  50%  
+    scale: (1.0)
+  60%  
+    scale: scale(1.1)
+  70%  
+    scale: scale(1.2)
+  80%  
+    scale: scale(1.1)
+  90%  
+    scale: scale(1.2)
+
+@keyframes float4
+  0% 
+    transform: translate(1px, 1px) rotate(-1deg)
+  10%  
+    transform: translate(-1px, -2px) rotate(0deg)
+  20% 
+    transform: translate(-3px, 0px) rotate(1deg)
+  30% 
+    transform: translate(3px, 0px) rotate(-1deg)
+  40% 
+    transform: translate(1px, -2px) rotate(0deg)
+  50%  
+    transform: translate(-1px, 1px) rotate(-1deg)
+  60% 
+    transform: translate(1px, -2px) rotate(0deg)
+  70%  
+    transform: translate(-3px, 0px) rotate(-1deg)
+  80%
+    transform: translate(3px, 0px) rotate(0deg)
+  90%  
+    transform: translate(1px, -2px) rotate(-1deg)
+  100%  
+    transform: translate(1px, 1px) rotate(0deg)   
+
+@keyframes float5
+	0% 
+		transform: rotate(0deg) translateX(5px) rotate(-5deg)
+	
+
+	100% 
+		transform: rotate(180deg) translateX(15px) rotate(-180deg)       
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
 
 .banner-principal__row .banner-principal__img
-  width: 400px !important 
+  width: 400px !important  
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white !important  
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/6.png") !important     
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+    background-color: #3BA935
+
+figcaption
+  font-weight: normal
+
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.img-mov
+  @media (max-width: 1400px)
+    display: block
+    margin: auto
+    width: auto
+    height: auto   
+
+.w
+  width: 99.9% !important   
+
+.j
+  display: grid
+  place-items: center 
+
+.j1
+  display: grid
+  align-items: center
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.brad
+  border-radius: 10px   
+
+.brad1
+  border-radius: 15px   
+
+.brad2
+  border-radius: 30px
+
+.bradtop
+  border-radius: 10px 10px 0 0 
+
+.bradbot
+  border-radius: 0 0 10px 10px  
+
+.bradbot1
+  border-radius: 0 0 20px 20px   
+
+.color1
+  *
+    color: #692CB7 !important    
+
+.color2
+  color: #201C77 !important    
+
+.bgw
+  background-color: white       
+
+.bgs  
+  background-color: #F4F4F4
+
+.bgfig
+  background-color: #FBFBF9        
+
+.bg1
+    background-color: #D7EED6
+
+.tarjeta.color-acento-botones--borde
+  background-color: #EFE8F7
+  border: 4px solid #EFE8F7
+.tabs-a.color-acento-botones .tabs-a__tab__selected::before 
+  background-color: #FAC22D
+  *
+    color: #12263F !important
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus, .tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #FAC22D !important
+.tabs-a__tab 
+  background-color: #692CB7
+  color: white
+
+.bg2
+  background: url('../assets/curso/temas/8.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+    padding-left: 2rem
+    padding-right: 2rem
+    margin-top: 2rem 
+        
+.acordion
+  .tarjeta.bg3
+    background-color: #692CB7
+
+.acordion__titulo
+  *
+    color: white !important      
+
+.tarjeta.bg3.acordion__activo
+  background-color:  #EFE8F7 !important
+  *    
+    color: #12263F !important 
+
+.acordion__accion__btn--a 
+  background-color: #FAC22D !important 
+
+.acordion__accion__btn--a i
+  color: #12263F !important  
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 5rem ))
+    background-color: #E0D4F0
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+
+.bg4
+  background: url('../assets/curso/temas/14.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+    padding-left: 2rem
+    padding-right: 2rem
+    margin-top: 2rem         
+                
+
+.tabla-a.color-acento-botones thead 
+  background-color: #EFE8F7 !important
+
+.tabla-a thead
+  border-top: 2px solid #692CB7  !important  
+
+.titulo-sexto.color-acento-botones 
+  border-left-color: #692CB7 
+
+.bgt1  
+  background-color: #EBF6EA    
+
+.bg5  
+  background: url('../assets/curso/temas/19.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover
+    margin-inline: -1.4rem
+    padding-left: 2rem
+    padding-right: 2rem
+    margin-top: 2rem   
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: 810px)
+    width: 45px
+    height: 45px
+  @media (max-width: $bp-max-sm )
+    width: 35px
+    height: 35px  
+.slyder-a__bullets__item    
+  @media (max-width: 810px)
+    width: 15px
+    height: 15px  
+    margin: 0 3px   
+  @media (max-width: $bp-max-sm)
+    width: 15px
+    height: 15px  
+    margin: 0 3px        
+
+.slyder-a
+  &__tipo-a
+    .slyder-a
+      &__bullets
+        position: absolute
+        bottom: 20px !important
+        left: 50%
+        transform: translateX(-50%)            
+
+.slyder-a__bullets__item--active
+  background-color: #FEDA52 !important
+  border: 1px solid #FEDA52
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFEB65
+.slyder-a__bullets__item
+  background-color: #FFF2C3
+  border: 1px solid #FFF2C3   
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: bold !important
+
+.bg6
+  background-color: #C6E9F3  
