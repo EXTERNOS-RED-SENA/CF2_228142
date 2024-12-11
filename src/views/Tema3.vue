@@ -38,7 +38,7 @@
       .col-lg-9.my-lg-0.my-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg3")
           div(titulo="Planos de distribución ")
-            p Muestran la disposición física de los cables, puntos de conexión, paneles de parcheo (patch panels) y dispositivos finales en el área de trabajo. Permiten una visualización clara de las rutas de los cables y la ubicación de los puntos de acceso, lo que facilita la instalación y evita errores de distribución. Estos planos también son útiles para identificar posibles puntos de interferencia o colisiones con otras instalaciones.
+            p Muestran la disposición física de los cables, puntos de conexión, paneles de parcheo (#[i patch panels]) y dispositivos finales en el área de trabajo. Permiten una visualización clara de las rutas de los cables y la ubicación de los puntos de acceso, lo que facilita la instalación y evita errores de distribución. Estos planos también son útiles para identificar posibles puntos de interferencia o colisiones con otras instalaciones.
           div(titulo="Diagramas de conexión ")
             p Estos diagramas detallan la interconexión de cada componente dentro del sistema de cableado estructurado. Especifican las conexiones entre los cables y los equipos, mostrando cómo se enlazan los elementos de la red y las posiciones de los puertos en los paneles de parcheo y los equipos de red. También incluyen información sobre la asignación de colores para el cableado y otros aspectos técnicos para el ensamblaje de las conexiones. 
           div(titulo="Simbología eléctrica y de telecomunicaciones ")
@@ -74,7 +74,7 @@
 
           .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Especificaciones de rendimiento")
 
-            p.mb-0 Las especificaciones de rendimiento establecen los parámetros mínimos de calidad para cada componente del sistema. Por ejemplo, en el caso de los cables de par trenzado, las especificaciones de rendimiento incluyen valores de atenuación, diafonía (crosstalk) y capacidad de transmisión de datos según la categoría del cable. En cables de fibra óptica, las especificaciones técnicas deben cubrir aspectos como el tipo de fibra, la distancia máxima de transmisión y las características de atenuación óptica.
+            p.mb-0 Las especificaciones de rendimiento establecen los parámetros mínimos de calidad para cada componente del sistema. Por ejemplo, en el caso de los cables de par trenzado, las especificaciones de rendimiento incluyen valores de atenuación, diafonía (#[i crosstalk]) y capacidad de transmisión de datos según la categoría del cable. En cables de fibra óptica, las especificaciones técnicas deben cubrir aspectos como el tipo de fibra, la distancia máxima de transmisión y las características de atenuación óptica.
 
           .tarjeta.color-acento-botones--borde.p-4.mb-3(titulo="Requisitos de instalación")
 

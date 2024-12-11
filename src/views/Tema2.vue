@@ -31,7 +31,7 @@
             ul.lista-ul.fa-ul.ps-4
               li 
                 i.fas.fa-check-circle.color1
-                span UTP (par trenzado no blindado), 
+                span UTP (par trenzado no blindado). 
               li 
                 i.fas.fa-check-circle.color1
                 span FTP (par trenzado con blindaje de lámina).
@@ -92,11 +92,11 @@
                 td Las herramientas de terminación, como las crimpeadoras, se emplean para realizar terminaciones adecuadas en conectores RJ45 y garantizar un contacto óptimo.
               tr
                 td.fast-bold.bgt1 Herramientas de medición y verificación.
-                td Para comprobar que las conexiones cumplen con los estándares de rendimiento, se utilizan herramientas como los testers de cables y los certificadores.
+                td Para comprobar que las conexiones cumplen con los estándares de rendimiento, se utilizan herramientas como los #[i testers] de cables y los certificadores.
                 td Estas herramientas permiten verificar parámetros como la continuidad, la resistencia y el ancho de banda de los cables, asegurando que cumplen con las especificaciones.
               tr
                 td.fast-bold.bgt1 Materiales de soporte e instalación.
-                td Incluyen canaletas, abrazaderas, paneles de conexión (patch panels) y organizadores de cables, los cuales facilitan la gestión del cableado en el lugar de instalación.
+                td Incluyen canaletas, abrazaderas, paneles de conexión (#[i patch panels]) y organizadores de cables, los cuales facilitan la gestión del cableado en el lugar de instalación.
                 td El uso de estos materiales permite un sistema más organizado y reduce el riesgo de daño o interferencias en los cables.                                  
 
     Separador 
@@ -133,7 +133,7 @@
             .row.justify-content-center
               .col-lg-6.my-2
                 h5.mb-4 Pruebas de certificación y verificación: 
-                p Una vez completada la instalación, es necesario realizar pruebas para verificar que el sistema cumple con los estándares de rendimiento. Las pruebas de certificación incluyen la verificación de continuidad, resistencia y diafonía (crosstalk) en los cables de cobre, así como pruebas de ancho de banda en las instalaciones de fibra óptica. Solo después de que el sistema pasa todas las pruebas de certificación, se considera lista para ser puesta en operación.
+                p Una vez completada la instalación, es necesario realizar pruebas para verificar que el sistema cumple con los estándares de rendimiento. Las pruebas de certificación incluyen la verificación de continuidad, resistencia y diafonía (#[i crosstalk]) en los cables de cobre, así como pruebas de ancho de banda en las instalaciones de fibra óptica. Solo después de que el sistema pasa todas las pruebas de certificación, se considera lista para ser puesta en operación.
               .col-lg-5.my-2 
                 img.img-a.img-t(src='@/assets/curso/temas/23.png', alt='')                                                  
 

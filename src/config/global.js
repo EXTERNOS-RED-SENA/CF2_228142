@@ -126,7 +126,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Seguridad y buenas prácticas',
+        titulo: 'Conclusiones',
         desarrolloContenidos: true,
       },
     ],
@@ -314,8 +314,7 @@ export default {
     },
     {
       referencia:
-        'International Electrotechnical Commission (IEC) 60071-1, "Coordination Insulation, definitions, principies, and rule ", edition 8.02006. Disponible en:',
-      link: 'https://webstore.iec.ch/publication/59657',
+        'International Electrotechnical Commission (IEC) 60071-1, "Coordination Insulation, definitions, principies, and rule", edition 8.02006. Disponible en:',
     },
     {
       referencia:
@@ -340,7 +339,7 @@ export default {
     },
     {
       referencia:
-        'North American Electric Reliability Council. ``Electric System Restoration Reference Document´´. Princeton Forrestal Village, New Jersey, April 1993. [Consultado 23 de enero de 2022]. Disponible en: ',
+        'North American Electric Reliability Council. “Electric System Restoration Reference Document”. Princeton Forrestal Village, New Jersey, April 1993. [Consultado 23 de enero de 2022]. Disponible en: ',
       link:
         'https://support.sosintl.com//AvatarHandler.ashx?radfile=%5CDepartments%5C1%5CStudy%20Guides%5CNERC%5CESRRef11.pdf',
     },
