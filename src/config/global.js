@@ -314,7 +314,7 @@ export default {
     },
     {
       referencia:
-        'International Electrotechnical Commission (IEC) 60071-1, "Coordination Insulation, definitions, principies, and rule", edition 8.02006. Disponible en:',
+        'International Electrotechnical Commission (IEC) 60071-1, "Coordination Insulation, definitions, principies, and rule", edition 8.02006.',
     },
     {
       referencia:
